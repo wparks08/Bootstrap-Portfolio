@@ -44,3 +44,23 @@
 .profile-pic {
     max-height: 200px; /*just needed it to be smaller...*/
 }
+
+.img-container {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+.img-container .img-text {
+    position: absolute;
+    bottom: 0px;
+    background-color: #343a40;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    color: #eee;
+}
+
+.center {
+    text-align: center;
+}
